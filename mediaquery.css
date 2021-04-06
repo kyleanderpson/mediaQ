@@ -1,0 +1,205 @@
+.mainContainerWhite {
+  background-color: #ffffff;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+
+
+.centerContent {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: center; */
+  filter: drop-shadow(8px 8px 8px black);
+}
+
+
+.tripleVideo {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.negativeTransition {
+  display: none;
+}
+
+.bigPicture{
+  display: none;
+}
+
+.lilPicture {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lilNegativeTransition {
+  position: fixed;
+  bottom: 55vw;
+  left: 43vw;
+}
+
+.mediumPicture {
+  display: none;
+}
+
+
+@media only screen and (min-width : 768px) {
+  .lilPicture {
+    display: none;
+  }
+  .bigPicture {
+    display: none;
+  }
+
+  .mainContainerWhite {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+  }
+
+
+  .centerContent {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(8px 8px 8px black);
+  }
+
+
+  .tripleVideo {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  .negativeTransition {
+    display: block;
+    position: fixed;
+    left: 25vw;
+    bottom: 0px;
+  }
+
+  .mediumPicture {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .lilNegativeTransition {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (min-width : 1200px) {
+
+  .mainContainerWhite {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+  }
+
+
+  .centerContent {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(8px 8px 8px black);
+  }
+
+
+  .tripleVideo {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  .negativeTransition {
+    display: block;
+    position: fixed;
+    left: 25vw;
+    bottom: 0px;
+  }
+
+  .bigPicture{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .lilPicture {
+    display: none;
+  }
+
+  .lilNegativeTransition {
+    display: none;
+  }
+
+  .mediumPicture {
+    display: none;
+  }
+
+}
